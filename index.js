@@ -4,6 +4,7 @@ const cheerio = require('cheerio');
 const baseURL = 'https://marketplace.visualstudio.com';
 const searchURL = '/items?itemName=';
 const extentions = execSync('code --list-extensions').toString().split("\n");
+console.log(extentions)
 const extentions_url = extentions.map(ext=>baseURL+searchURL+ext);
 const fs = require('fs');
 
