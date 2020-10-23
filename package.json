@@ -1,0 +1,17 @@
+{
+  "name": "vscode-generate-readme-for-your-extentions",
+  "version": "1.0.0",
+  "description": "read https://marketplace.visualstudio.com/ and fetch url,title,description of extentions",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "SeyyedMahdiHassanpour",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "objects-to-csv": "^1.3.6",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
