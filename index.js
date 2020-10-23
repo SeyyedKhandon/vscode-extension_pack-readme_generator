@@ -26,7 +26,7 @@ const generateReadMe = async () => {
   const results = await Promise.all(
     extentions_url.map(async (url, index) => {
       try {
-        return convertExtInfoToMarkDownFormat(url, index);
+        return await convertExtInfoToMarkDownFormat(url, index);
       } catch (error) {
         console.log(index, url);
       }
