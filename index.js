@@ -8,7 +8,7 @@ const searchURL = "/items?itemName=";
 const extentions = execSync("code --list-extensions")
   .toString()
   .split("\n")
-  .filter((e) => e);
+  .filter((e) => e && e !== "SeyyedKhandon.vscode-web-developer-experience");
 console.log("Extentions :\n", extentions);
 const extentions_url = extentions.map((ext) => baseURL + searchURL + ext);
 

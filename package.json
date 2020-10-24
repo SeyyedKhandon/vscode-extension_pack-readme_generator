@@ -1,6 +1,6 @@
 {
   "name": "vscode-generate-readme-for-your-extentions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "read https://marketplace.visualstudio.com/ and fetch url,title,description of extentions",
   "main": "index.js",
   "scripts": {
