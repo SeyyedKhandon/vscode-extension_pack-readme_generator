@@ -1,6 +1,6 @@
 {
   "name": "vscode-extension_pack-readme_generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "read url,title,description of extensions from https://marketplace.visualstudio.com/ ",
   "main": "index.js",
   "scripts": {
